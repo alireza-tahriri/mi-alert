@@ -1,0 +1,28 @@
+{
+    "name": "alireza-tahriri/mi-alert",
+    "description": "None",
+    "autoload": {
+        "psr-4": {
+            "AlirezaTahriri\\MiAlert\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alireza Tahriri",
+            "email": "alirezatahriri4@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlirezaTahriri\\MiAlert\\MiAlertServiceProvider"
+            ],
+            "aliases": {
+                "MiAlert": "AlirezaTahriri\\MiAlert\\MiAlertFacede::class"
+            }
+        }
+    }
+}

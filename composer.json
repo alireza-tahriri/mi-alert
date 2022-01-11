@@ -24,5 +24,8 @@
                 "MiAlert": "AlirezaTahriri\\MiAlert\\MiAlertFacede"
             }
         }
+    },
+    "config":{
+        "optimize-autoloader":true
     }
 }

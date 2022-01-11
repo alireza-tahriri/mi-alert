@@ -21,7 +21,7 @@
                 "AlirezaTahriri\\MiAlert\\MiAlertServiceProvider"
             ],
             "aliases": {
-                "MiAlert": "AlirezaTahriri\\MiAlert\\MiAlertFacede::class"
+                "MiAlert": "AlirezaTahriri\\MiAlert\\MiAlertFacede"
             }
         }
     }
